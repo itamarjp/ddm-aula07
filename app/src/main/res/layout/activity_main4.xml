@@ -1,41 +1,458 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
-    tools:context="com.example.administrador.myapplication.Main4Activity">
+    tools:context=".MainActivity">
 
-    <GridLayout
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:columnCount="5"
-        android:rowCount="5"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="6dp">
+        android:orientation="vertical">
 
-
-        <Button
-            android:id="@+id/button"
+        <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_margin="10dp">
 
-        <Button
-            android:id="@+id/button5"
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+        </GridLayout>
+
+        <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_margin="10dp">
 
-        <Button
-            android:id="@+id/button3"
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+        </GridLayout>
+
+        <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
-            tools:layout_editor_absoluteX="88dp"
-            tools:layout_editor_absoluteY="47dp" />
+            android:layout_margin="10dp">
 
-    </GridLayout>
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
 
-</android.support.constraint.ConstraintLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginRight="10dp"
+                android:layout_row="0"
+                android:layout_rowSpan="3"
+                android:background="#ffe260"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Comida Gostosa XXX"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffe260"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Escolha no máximo 5 ingredientes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
